@@ -13,18 +13,12 @@ Below are a few screenshots of the web app.
 ![Capture1](https://user-images.githubusercontent.com/36822899/56208669-f4f7aa80-6051-11e9-82ca-071821a10f3d.PNG)
 
 ## Project Components
-There are three components you'll need to complete for this project.
-
 #### 1. Original Data
-
 In this file, you will see the original data set of the disaster message.
 
 #### 2. Pipelines
-
 In this file, you will see the pipeline I have built for both ETL and ML.
-
 > ETL pipeline:
-
 I write a data cleaning pipeline that: 
 
 * Loads the messages and categories datasets
@@ -36,7 +30,6 @@ I write a data cleaning pipeline that:
 * Stores it in a SQLite database
 
 > ML Pipeline:
-
 I write a machine learning pipeline that:
 
 * Loads data from the SQLite database
@@ -51,18 +44,14 @@ I write a machine learning pipeline that:
 
 * Exports the final model as a pickle file
 
-#### 3. Models
-
+#### 3. Training models
 In this file, I put in 2 python script files:
 
 > process_data
-
 Is the file contains the functions of clean data based on the ETL pipeline I build.
 
 > train_classifier
-
 Is the file contains the functions of machine learning training models based on the ML pipeline I build.
 
 #### 4. App
-
 In this file you will see the codes of some javascript, html and css to be able to run a web app and visualize the data.
