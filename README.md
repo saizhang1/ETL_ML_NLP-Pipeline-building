@@ -55,3 +55,17 @@ Is the file contains the functions of machine learning training models based on 
 
 #### 4. App
 In this file you will see the codes of some javascript, html and css to be able to run a web app and visualize the data.
+
+## How to run the project?
+
+1. Run the following commands in the project's root directory to set up your database and model.
+
+    - To run ETL pipeline that cleans data and stores in ####Data file
+        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
+    - To run ML pipeline that trains classifier and saves in #### Training Models file
+        `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
+
+2. Run the following command in the app's directory to run your web app in #### app file
+    `python run.py`
+
+3. Go to http://0.0.0.0:3001/
