@@ -5,7 +5,7 @@ Build ETL and ML pipeline for a real case(Disaster Response) by applying data en
 In original data file, there is data set containing real messages that were sent during disaster events. I need to create a 
 machine learning pipeline to categorize these events so that I can send the messages to an appropriate disaster relief agency.
 
-This project will include a web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data. This project will show off your software skills, including your ability to create basic data pipelines and write clean, organized code!
+This project will include a web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data. This project will show my software skills, including my ability to create basic data pipelines and write clean, organized code!
 
 Below are a few screenshots of the web app.
 ![Capture](https://user-images.githubusercontent.com/36822899/56208621-dbeef980-6051-11e9-8950-85d6c0e80ccc.PNG)
